@@ -153,7 +153,7 @@ namespace CustomString
                 throw new InvalidOperationException("Stack is empty");
             }
 
-            ICustomString[] result = new ICustomString[_currentHeadIndex];
+            ICustomString[] result = new ICustomString[_currentHeadIndex + 1];
             int currentIndex = 0;
             while (!IsEmpty())
             {

@@ -149,6 +149,26 @@ namespace CustomString.Tests
             Assert.Throws<InvalidOperationException>(() => stack.PopAll());
         }
 
+        [Fact]
+        public void PopAll_NonEmptyStack_BecomesEmpty()
+        {
+            var str1 = new CustomString();
+            var str2 = new CustomString();
+            var str3 = new CustomString();
+            var stack = new CustomStringStack();
+
+            stack.Push(str1);
+            stack.Push(str2);
+            stack.Push(str3);
+
+            var result = stack.PopAll();
+
+            Assert.True(stack.IsEmpty());
+            Assert.Equal(str3, result[0]);
+            Assert.Equal(str2, result[1]);
+            Assert.Equal(str1, result[2]);
+        }
+
         [Theory]
         [InlineData("s1", "s2")]
         [InlineData("s1", "s2", "str3")]
