@@ -4,12 +4,29 @@ using System.Text;
 
 namespace CustomString
 {
+    /// <summary>
+    /// Класс для изменения размеров массива путем увеличения/уменьшения вдвое.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class LogarithmicArrayResizer<T> : IArrayResizer<T>
     {
         /// <summary>
         /// Минимальный размер массива.
         /// </summary>
-        public int MinSize { get; } = 10;
+        public int MinSize { get; private set; }
+        
+        public LogarithmicArrayResizer() : this(10)
+        {
+        }
+
+        /// <summary>
+        /// Создать класс для изменения размеров массива.
+        /// </summary>
+        /// <param name="minSize">Минимальный допустимый размер массива.</param>
+        public LogarithmicArrayResizer(int minSize)
+        {
+            MinSize = minSize;
+        }
 
         /// <summary>
         /// Проверить, возможно ли уменьшение размера.

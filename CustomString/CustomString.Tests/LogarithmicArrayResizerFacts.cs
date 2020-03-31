@@ -42,6 +42,7 @@ namespace CustomString.Tests
         [InlineData(20, 11)]
         [InlineData(20, 20)]
         [InlineData(20, 15)]
+        [InlineData(15, 8)]
         public void CanDecreaseArray_SaturationGreaterThanHalfLength_False(int arrayLength, int currentSaturation)
         {
             var resizer = new LogarithmicArrayResizer<object>();
@@ -52,6 +53,7 @@ namespace CustomString.Tests
         [InlineData(20, -1)]
         [InlineData(20, 10)]
         [InlineData(20, 5)]
+        [InlineData(15, 7)]
         public void CanDecreaseArray_SaturationLessThanHalfLength_True(int arrayLength, int currentSaturation)
         {
             var resizer = new LogarithmicArrayResizer<object>();
@@ -128,6 +130,7 @@ namespace CustomString.Tests
 
         [Theory]
         [InlineData(20, 10)]
+        [InlineData(20, 9)]
         [InlineData(30, 15)]
         [InlineData(20, 7)]
         [InlineData(15, 7)]
