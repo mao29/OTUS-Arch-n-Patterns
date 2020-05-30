@@ -4,16 +4,29 @@ using System.Text;
 
 namespace DecoratorHomeWork
 {
+    /// <summary>
+    /// Преобразователь-декоратор, сортирующий данные простым выбором.
+    /// </summary>
     public class SelectionSortingDataTransformer : BaseSortingDataTransformer
     {
+        /// <summary>
+        /// Создать преобразователь-декоратор, сортирующий данные простым выбором.
+        /// </summary>
+        /// <param name="innerTransformer">Оборачиваемый преобразователь данных.</param>
         public SelectionSortingDataTransformer(IDataTransformer innerTransformer) : base(innerTransformer)
         { }
 
+        /// <inheritdoc />
         protected override string[] SortData(string[] data)
         {
             return SelectionSort(data);
         }
 
+        /// <summary>
+        /// Отсортировать данные простым выбором.
+        /// </summary>
+        /// <param name="data">Данные.</param>
+        /// <returns>Данные, отсортированные простым выбором.</returns>
         private string[] SelectionSort(string[] data)
         {
             var sortedData = data;

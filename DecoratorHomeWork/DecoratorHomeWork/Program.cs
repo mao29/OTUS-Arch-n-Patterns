@@ -24,6 +24,12 @@ namespace DecoratorHomeWork
         }
 
 
+        /// <summary>
+        /// Создать преобразователь данных, сортирующий данные заданным алгоритмом.
+        /// </summary>
+        /// <param name="sortingMethod">Алгоритм сортировки.</param>
+        /// <param name="innerTransformer">Оборачиваемый преобразователь данных.</param>
+        /// <returns>Преобразователь данных, сортирующий данные заданным алгоритмом.</returns>
         static BaseSortingDataTransformer CreateSortingDataTransformer(SortingMethod sortingMethod, IDataTransformer innerTransformer)
         {
             switch (sortingMethod)
@@ -36,7 +42,7 @@ namespace DecoratorHomeWork
                     return new SelectionSortingDataTransformer(innerTransformer);
             }
 
-            throw new ArgumentOutOfRangeException(nameof(sortingMethod), "Не существует обработчика с указанным методом сортировки");
+            throw new ArgumentOutOfRangeException(nameof(sortingMethod), "Не существует преобразователя с указанным методом сортировки");
         }
     }
 }

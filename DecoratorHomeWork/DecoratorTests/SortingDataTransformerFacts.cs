@@ -4,8 +4,15 @@ using Xunit;
 
 namespace DecoratorTests
 {
+    /// <summary>
+    /// Базовый класс с тестами сортирующих преобразователей данных.
+    /// </summary>
     public abstract class SortingDataTransformerFacts
     {
+        /// <summary>
+        /// Получить сортирующий декоратор-преобразователь данных.
+        /// </summary>
+        /// <returns></returns>
         protected abstract BaseSortingDataTransformer GetTestedTransformer();
 
         [Fact]
