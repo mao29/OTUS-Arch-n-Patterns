@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CommandHomeWork.AddMatrixProcessor">
+    <Position X="6" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixProcessors\AddMatrixProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandHomeWork.DeterminantMatrixProcessor">
+    <Position X="3.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixProcessors\DeterminantMatrixProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandHomeWork.MatrixProcessor">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixProcessors\MatrixProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandHomeWork.TransponateMatrixProcessor">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MatrixProcessors\TransponateMatrixProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandHomeWork.AddMatrixCommand">
+    <Position X="6" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAQCSAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Command\AddMatrixCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandHomeWork.CalculateDeterminantCommand">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQAAAAAACAAYAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Command\CalculateDeterminantCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandHomeWork.TransponateMatrixCommand">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAQAAACAAAAAAAAAAAEAAAAQAAAA=</HashCode>
+      <FileName>Command\TransponateMatrixCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CommandHomeWork.ICommand">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Command\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
