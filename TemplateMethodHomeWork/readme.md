@@ -4,7 +4,7 @@
 ![Диаграмма классов](/TemplateMethodHomeWork/ClassDiagram1.png?raw=true)
 
 Для запуска приложения необходимо
-1. Перейти в папку FactoryHomeWork командой `cd TemplateMethodHomeWork`
+1. Перейти в папку TemplateMethodHomeWork командой `cd TemplateMethodHomeWork`
 2. Запустить команду `dotnet run "Operation" "SourceFilePath" "DestinationFilePath"`
 > Например `dotnet run Transponate in.txt out.txt` 
 
