@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TemplateMethodHomeWork": {
+      "commandName": "Project",
+      "commandLineArgs": "Add in.txt out.txt"
+    }
+  }
+}
