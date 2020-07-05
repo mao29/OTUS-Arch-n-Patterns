@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MatrixAddUtility": {
+      "commandName": "Project",
+      "commandLineArgs": "in.txt out.txt"
+    }
+  }
+}
