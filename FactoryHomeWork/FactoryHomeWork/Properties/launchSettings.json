@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FactoryHomeWork": {
+      "commandName": "Project",
+      "commandLineArgs": "Insertion in.txt out.txt NewLine"
+    }
+  }
+}
