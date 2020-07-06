@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MatrixMultiplier.Logger">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAAAAAAAAAAAAAAAIQAAAAAAAAQAAAAAAIAIA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixMultiplier.ThreadedMatrixMultiplier">
+    <Position X="4" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAAACAAAABAAAAgAAAAAAIAAAAAAAAAAgA=</HashCode>
+      <FileName>ThreadedMatrixMultiplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
