@@ -1,8 +1,5 @@
 Приложение представляет собой консольную утилиту на .net core 3.1. Для запуска необходимо установить .Net Core SDK 3.1.
 
-### Диаграмма классов
-![Диаграмма классов](/TemplateMethodHomeWork/ClassDiagram1.png?raw=true)
-
 Для запуска приложения необходимо
 1. Перейти в папку CommandParseHomeWork командой `cd CommandParseHomeWork`
 2. Запустить команду `dotnet run`
