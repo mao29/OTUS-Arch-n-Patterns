@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CommandParser.CommandNameCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="8" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAACAAAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\CommandNameCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.WhitespaceCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="16.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\WhitespaceCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.FinishedCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="1" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\FinishedCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.KeyNameCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BQgAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\KeyNameCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.CommandParameterCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="1" Y="14" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\CommandParameterCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.QuotedCommandParameterCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="7" Y="7.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAIAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\QuotedCommandParameterCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.KeyParameterCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="1" Y="16.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\KeyParameterCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.QuotedKeyParameterCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="7" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAIAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\QuotedKeyParameterCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.AnyCharAfterKeyCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="4" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\AnyCharAfterKeyCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.225" />
+  </Class>
+  <Class Name="CommandParser.AnyCharCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="1" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\AnyCharCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.WhitespaceAfterParameterizedKeyCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="14" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\WhitespaceAfterParameterizedKeyCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.InvalidCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="1" Y="9.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\InvalidCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.WhitespaceAfterKeyCommandParserState" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="14" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\WhitespaceAfterKeyCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.CommandParser">
+    <Position X="8.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAEAACEAAAAAAAAAAECAAABABAAA=</HashCode>
+      <FileName>CommandParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.Command">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAMAAAECAAAAAQCAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Command\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandParser.CommandKey">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\CommandKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandParser.ParameterizedCommandKey">
+    <Position X="3.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command\ParameterizedCommandKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandParser.FirstCommandNameCharacterCommandParserState">
+    <Position X="3.5" Y="4.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\FirstCommandNameCharacterCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.AnyCharAfterParameterizedKeyCommandParserState">
+    <Position X="7.5" Y="16.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\AnyCharAfterParameterizedKeyCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.QuotedCommandParameterFirstCharCommandParserState">
+    <Position X="1" Y="19.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAEAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\QuotedCommandParameterFirstCharCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CommandParser.QuotedKeyParameterFirstCharCommandParserState">
+    <Position X="5.5" Y="19.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAEAQAAAACAAAAAAQAA=</HashCode>
+      <FileName>CommandParserState\QuotedKeyParameterFirstCharCommandParserState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CommandParser.ICommandParserState">
+    <Position X="1.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAA=</HashCode>
+      <FileName>CommandParserState\ICommandParserState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CommandParser.IStatefulCommandParser">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAJAAAIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStatefulCommandParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
